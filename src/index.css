@@ -27,13 +27,60 @@ main {
 .grid-view div.card.ui {
   margin: 1.25rem;
 }
-/*
+
 .main-img {
   display: block;
-  border-radius: 100%;
   margin: 0 auto;
-} */
+}
 
 header h1 {
   text-align: center;
 }
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin: auto;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #1c5d76;
+    font-weight: bold;
+    margin-right: 1rem;
+  }
+  nav a.active,
+  nav a:hover {
+    color: darkcyan; 
+    transition: all .3s;
+  }
+
+  .search-form form{
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    width: 50%;
+  
+  
+  
+  }
+  
+  .search-form form label,input{
+    margin: 3px auto;
+  }
+  
+  .search-form form label {
+    font-weight: 700;
+  }
+  
+  .search-form form input{
+    border: 1px solid darkblue;
+    background-color: aliceblue;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .character-list h2{
+    text-align: center;
+  }
