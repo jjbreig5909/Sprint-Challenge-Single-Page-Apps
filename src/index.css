@@ -55,3 +55,28 @@ nav {
     color: darkcyan; 
     transition: all .3s;
   }
+
+  .search-form form{
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    width: 50%;
+  
+  
+  
+  }
+  
+  .search-form form label,input{
+    margin: 3px auto;
+  }
+  
+  .search-form form label {
+    font-weight: 700;
+  }
+  
+  .search-form form input{
+    border: 1px solid darkblue;
+    background-color: aliceblue;
+    border-radius: 5px;
+    text-align: center;
+  }
