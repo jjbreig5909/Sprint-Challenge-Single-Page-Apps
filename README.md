@@ -27,7 +27,7 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ]  Explain benefit(s) using `client-side routing`?
 
-> Answer:
+> Answer: Client side routing allows us to show a change in the user's URL bar without reloading the entire page. This has a few benefits, but some of the most notable are that it increases the speed or smoothness of your single page application,  since all of the componenents have already been loaded once the initial page has loaded. It also allows the user to use the URL bar to access different parts of the application, as well as the back and forward buttons. 
 
 ## Project Set Up
 
