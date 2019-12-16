@@ -80,3 +80,7 @@ nav {
     border-radius: 5px;
     text-align: center;
   }
+
+  .character-list h2{
+    text-align: center;
+  }
